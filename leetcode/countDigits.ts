@@ -15,3 +15,4 @@ function countDigits(num: number): number {
 
     return count;
 }
+
