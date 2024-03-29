@@ -11,3 +11,4 @@ function selectionSort(arr){
 
 const sort= selectionSort([34,6,11,9,3,100,20,2,5,4,1,15,7,])
 console.log("Selection sort",sort)
+
