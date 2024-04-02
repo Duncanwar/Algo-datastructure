@@ -4,15 +4,15 @@ function binarySearch(arr, x) {
   let middle;
 
   while (left <= right) {
-    middle = (left + (right - left)) >> 1;
-    if (arr[middle] == x) {
+    middle = left + ((right - left) >> 1);
+    if (arr[middle] === x) {
       return middle;
     }
-    if (arr[left] < x) {
-      middle= left - 1;
+    if (arr[middle] < x) {
+      left= middle + 1;
     }
     else 
-    middle= right -1
+    right= middle -1
   }
   return -1
 }
