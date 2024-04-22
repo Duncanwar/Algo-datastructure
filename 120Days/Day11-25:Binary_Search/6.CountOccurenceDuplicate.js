@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-function searchDuplicanceOccurence(){
-    
-}
-=======
 function countOccurrences(arr, target) {
     const findFirstOccurrence = (arr, target) => {
         let left = 0;
@@ -61,4 +56,3 @@ const arr = [1,2,3,3,3,4,5]
 // [1, 2, 2, 2, 3, 4, 4, 4, 4, 5];
 const target = 3;
 console.log(countOccurrences(arr, target)); // Output: 4
->>>>>>> bee89561b452faeedd389d3042e8b43840070cb0
