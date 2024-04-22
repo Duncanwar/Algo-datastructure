@@ -1,3 +1,3 @@
-function searc(){
+function searchDuplicanceOccurence(){
     
 }
